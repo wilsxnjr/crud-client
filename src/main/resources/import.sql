@@ -1,2 +1,7 @@
-INSERT INTO tb_client (name, identity_card, income, birth_date, children) VALUES ('Wilson Jaime Machava Júnior', '123456789W', 300000.0, TIMESTAMP WITH TIME ZONE '2003-05-05T14:00:00Z', 4);
-INSERT INTO tb_client (name, identity_card, income, birth_date, children) VALUES ('Relíquia Mazivila', '123456789R', 500000.0, TIMESTAMP WITH TIME ZONE '2003-01-05T10:00:00Z', 1);
+INSERT INTO tb_client (name, identity_card, income, birth_date, children) VALUES ('Wilson Jaime Machava Júnior', '123456789WJ', 300000.0, TIMESTAMP WITH TIME ZONE '2003-05-05T14:00:00Z', 4);
+INSERT INTO tb_client (name, identity_card, income, birth_date, children) VALUES ('Kátia Fanissa Wilson Machava', '123456789K', 500000.0, TIMESTAMP WITH TIME ZONE '2006-09-07T21:00:00Z', 1);
+INSERT INTO tb_client (name, identity_card, income, birth_date, children) VALUES ('Neyde Samuel Cossa', '123456789N', 500000.0, TIMESTAMP WITH TIME ZONE '2004-02-05T10:00:00Z', 4);
+INSERT INTO tb_client (name, identity_card, income, birth_date, children) VALUES ('Helena Carlos Macamo', '12345678HR', 600000.0, TIMESTAMP WITH TIME ZONE '1978-05-06T21:00:00Z', 3);
+INSERT INTO tb_client (name, identity_card, income, birth_date, children) VALUES ('Wilson Jaime Machava', '123456789W', 500000.0, TIMESTAMP WITH TIME ZONE '1966-05-02T10:00:00Z', 3);
+INSERT INTO tb_client (name, identity_card, income, birth_date, children) VALUES ('Elpidia Helena Wilson Machava', '123456789E', 500000.0, TIMESTAMP WITH TIME ZONE '2011-11-27T10:00:00Z', 0);
+INSERT INTO tb_client (name, identity_card, income, birth_date, children) VALUES ('Relíquia Mazivila', '123456789R', 400000.0, TIMESTAMP WITH TIME ZONE '2003-01-05T10:00:00Z', 0);
