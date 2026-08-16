@@ -1,0 +1,2 @@
+INSERT INTO tb_client (name, identity_card, income, birth_date, children) VALUES ('Wilson Jaime Machava Júnior', '123456789W', 300000.0, TIMESTAMP WITH TIME ZONE '2003-05-05T14:00:00Z', 4);
+INSERT INTO tb_client (name, identity_card, income, birth_date, children) VALUES ('Relíquia Mazivila', '123456789R', 500000.0, TIMESTAMP WITH TIME ZONE '2003-01-05T10:00:00Z', 1);
