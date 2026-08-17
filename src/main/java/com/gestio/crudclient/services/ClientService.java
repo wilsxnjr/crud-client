@@ -30,4 +30,28 @@ public class ClientService {
         Client client = obj.orElseThrow(() -> new ResourceNotFoundException("Client " + id + " not found"));
         return new ClientDTO(client);
     }
+
+    @Transactional
+    public ClientDTO insert(ClientDTO dto) {
+        Client entity = new Client();
+        entity.setName(dto.getName());
+        entity.setIdentityCard(dto.getIdentityCard());
+        entity.setIncome(dto.getIncome());
+        entity.setBirthDate(dto.getBirthDate());
+        entity.setChildren(dto.getChildren());
+        entity = repository.save(entity);
+        return new ClientDTO(entity);
+    }
+
+    @Transactional
+    public ClientDTO update(Long id, ClientDTO dto) {
+        Client entity = repository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Client " + id + " not found"));
+        entity.setName(dto.getName());
+        entity.setIdentityCard(dto.getIdentityCard());
+        entity.setIncome(dto.getIncome());
+        entity.setBirthDate(dto.getBirthDate());
+        entity.setChildren(dto.getChildren());
+        entity = repository.save(entity);
+        return new ClientDTO(entity);
+    }
 }
