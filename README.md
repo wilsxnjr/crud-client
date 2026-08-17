@@ -15,6 +15,15 @@ CRUD de clientes (`Client`) é um projecto desenvolvido em Spring Boot com o obj
 
 A aplicação implementa operações básicas de um CRUD (create, retrieve, update e delete) sobre a entidade **Client**, utilizando Spring Data JPA para persistência e H2 como banco de dados.
 
+## Arquitectura usada
+
+<img width="1115" height="762" alt="Screenshot from 2026-08-15 09-27-50" src="https://github.com/user-attachments/assets/429096e5-55a7-44c0-b6e6-16d08ded2175" />
+
+- Controllers - recebem as requisições HTTP e comunicam-se com a camada de serviço através de DTOs
+- Services - contêm a lógica de negócio da aplicação
+- Repositories - responsáveis pelo acesso e persistência dos dados
+- Entities - representam as tabelas do banco de dados
+
 ## Endpoints da API
 | Método | Endpoint      | Descrição            |
 |:-------|:--------------|:---------------------|
